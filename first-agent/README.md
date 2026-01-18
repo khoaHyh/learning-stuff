@@ -2,6 +2,8 @@
 
 A simple AI agent that uses local Ollama models. From [Simon Willison](https://simonwillison.net/2025/Sep/18/agents/): **An LLM agent runs tools in a loop to achieve a goal**.
 
+Followed [Thomas Ptacek's blog post](https://fly.io/blog/everyone-write-an-agent/) and adapted to use Ollama instead.
+
 ## Demo (screenshot)
 
 ![Multi-turn conversation demo](demo.png)
