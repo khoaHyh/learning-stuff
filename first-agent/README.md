@@ -22,7 +22,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ### 2. Start Ollama
 
 ```bash
-# In a separate terminal, start Ollama
+# In a separate terminal or tmux window/pane, start Ollama
 ollama serve
 ```
 
@@ -37,14 +37,12 @@ ollama pull qwen2.5:3b
 ### 4. Install Dependencies
 
 ```bash
-# Sync dependencies
 uv sync
 ```
 
 ### 5. Run the Agent
 
 ```bash
-# Run the interactive agent
 uv run python main.py
 ```
 
