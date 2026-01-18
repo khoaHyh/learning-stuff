@@ -1,0 +1,6 @@
+.DS_Store
+.env
+.jj/
+__pycache__/
+.venv/
+.ruff_cache/
